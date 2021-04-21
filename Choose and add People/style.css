@@ -1,13 +1,16 @@
 .click-these-area{
   width: 200px;
-  border: 5px solid green;
+  border: 5px solid whitesmoke;
 }
 .click-these-area:hover{
   opacity: 0.8;
 }
+.click-these-area{
+  color: white;
+}
 
 .green-top{
-  background-color: green;
+  background-color: cadetblue;
   color: white;
   padding: 3px 25px;
 }
@@ -31,6 +34,22 @@
   color: white;
   padding: 3px 25px;
 }
-/* hr{
-  margin: 5px 2px;
-} */
+body{
+  background-color: white;
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./images/search.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Orelega One', cursive;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+hr{
+  color: white;
+}

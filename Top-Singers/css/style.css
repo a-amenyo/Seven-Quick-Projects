@@ -1,11 +1,24 @@
+body{
+    background-image: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/musicians.jpg");
+      background-size: cover;
+      background-position: center center
+      ;
+    font-family: 'Orelega One', cursive;
+}
+
 .top-area{
-    border:10px solid purple;
+    /* border:10px solid whitesmoke; */
     text-align: center;
     padding: 5px 0;
     }
     
     .top-size{
     font-size: 40px;
+    color: white;
     }
     
     button{
@@ -19,13 +32,14 @@
     
     .singer-table td{
     padding: 5px 10px;
-    border:2px solid gray;
+    font-family: 'Orelega One', cursive;
     text-align: center;
+    color: white;
     }
     
     .singer-pic{
         width:70px;
-        border:3px solid gray;
+        border:3px solid white;
     }
     
     .name-size{
@@ -42,6 +56,9 @@
     .quality-icon{
         width:60px;
         border-radius: 60px;
+    }
+    .g-scope{
+        color: white;
     }
     
     .quality-icon:hover {

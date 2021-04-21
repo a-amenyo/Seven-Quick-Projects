@@ -3,14 +3,35 @@
     margin: 0 ;
 }
 body{
-    background-color: whitesmoke;
+    background-color: white;
+    background-image:url('./background.jpg');
+    opacity: 0.89;
+    background-size: cover;
+    background-position: center center;
 }
 .root{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    padding: 30px;
+    margin-top: 50px;
     margin: auto;
+    height: 60vh;
     width: 900px;
-    height: 100vh;
-    border: 1px solid black;
+
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid white;
+   background-color: seagreen;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
 }

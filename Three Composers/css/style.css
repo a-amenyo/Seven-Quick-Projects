@@ -3,7 +3,15 @@
     padding: 0;
 }
 body{
-    font-family: Fira Code;
+    background-image: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/violin.jpg");
+      background-size: cover;
+      background-position: center center
+      ;
+    font-family: 'Orelega One', cursive;
 }
 
 .title{
@@ -49,17 +57,15 @@ body{
     margin: 5px;
 }
 .bottom-table{
-    border: 3px solid black;
+    border: 3px solid white;
     width: 100%;
 
 }
-.bottom-table tr:hover{
-    background-color: gray;
-}
+
 
 .bottom-table td{
     font-size:2rem;
-    border:5px solid gray;
+    border:5px solid white;
     text-align: center;
     padding: 8px;
 }
@@ -68,4 +74,10 @@ body{
     height: 60px;
     border-radius: 10px;
     box-shadow: 0px 0px 30px 0.2px rgba(0,0,0,0.3);
+}
+h2{
+    color: white;
+}
+.ng-binding{
+    color: white;
 }

@@ -1,9 +1,19 @@
 button{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    font-family: 'Orelega One', cursive;
 }
 .big{
     width: 200px;
-    height: 200px;
-    border-radius:200px;
+  
+}
+body{
+    background-color: grey;
+}
+table{
+    margin:auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+    color: white;
 }
